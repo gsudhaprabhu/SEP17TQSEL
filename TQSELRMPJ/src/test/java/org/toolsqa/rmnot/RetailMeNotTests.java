@@ -38,6 +38,8 @@ public class RetailMeNotTests {
         PropertyConfigurator.configure("log4j.properties");
         
         File src=new File("rm.properties");
+		
+		//Added
 
         // Create  FileInputStream object 
         FileInputStream fis=new FileInputStream(src);
